@@ -8,31 +8,31 @@ A Hegia Tech acabou de lançar um dispositivo/produto para auxiliar pessoas com 
 
 O objetivo deste software é automatizar a leitura dessas reviews para responder a perguntas de negócio:
 
-O sentimento geral é positivo ou negativo?
+- O sentimento geral é positivo ou negativo?
 
-Quais são as principais reclamações?
+- Quais são as principais reclamações?
 
-O produto está cumprindo sua promessa de melhorar o sono?
+- O produto está cumprindo sua promessa de melhorar o sono?
 
 # 🛠️ Tecnologias Utilizadas
-Python 3.x
+- Python 3.x
 
-LangChain: Framework para orquestração da LLM.
+- LangChain: Framework para orquestração da LLM.
 
-Streamlit: Criação da interface web interativa.
+- Streamlit: Criação da interface web interativa.
 
-Pandas: Manipulação de dados e exportação para CSV.
+- Pandas: Manipulação de dados e exportação para CSV.
 
-LLM (Integração): Uso de modelos de linguagem para interpretação semântica do texto.
+- LLM (Integração): Uso de modelos de linguagem para interpretação semântica do texto.
 
 # ⚙️ Funcionalidades
-Input de Dados: Interface para inserção de reviews (texto direto ou upload).
+1. Input de Dados: Interface para inserção de reviews (texto direto ou upload).
 
-Processamento Inteligente: O sistema analisa o texto, identifica o sentimento (Positivo, Negativo, Neutro) e extrai pontos-chave.
+2. Processamento Inteligente: O sistema analisa o texto, identifica o sentimento (Positivo, Negativo, Neutro) e extrai pontos-chave.
 
-Estruturação de Saída: Transforma a resposta textual da IA em um formato estruturado.
+3. Estruturação de Saída: Transforma a resposta textual da IA em um formato estruturado.
 
-Exportação para Business Intelligence: Gera um arquivo .csv pronto para ser consumido por analistas ou ferramentas de visualização de dados.
+4. Exportação para Business Intelligence: Gera um arquivo .csv pronto para ser consumido por analistas ou ferramentas de visualização de dados.
 
 # 💡 Decisões de Arquitetura e Desafios
 Durante o desenvolvimento, algumas decisões técnicas foram tomadas para alinhar o projeto aos objetivos de negócio:
@@ -85,3 +85,4 @@ streamlit run app.py
 Caio Giacon
 
 Desenvolvedor focado em Engenharia de IA e soluções de software que resolvem problemas reais.
+
