@@ -47,31 +47,34 @@ A Decisão: Embora JSON seja o padrão para comunicação entre APIs, o objetivo
 Exportar para CSV permite que esses dados sejam imediatamente abertos no Excel, Google Sheets ou Power BI para criação de gráficos e relatórios, sem a necessidade de um sistema intermediário para ler JSON.
 
 # 🚀 Como Executar o Projeto
-Clone o repositório:
+1. Clone o repositório:
 
 ```Bash
 git clone https://github.com/CaioGiacon/Analise_de_Sentimento_Langchain.git
 cd Analise_de_Sentimento_Langchain
 ```
 
-Instale as dependências:
+2. Instale as dependências:
 
 ```Bash
 pip install -r requirements.txt
 ```
 
-Configure as Variáveis de Ambiente:
+3. Configure as Variáveis de Ambiente:
+   
 Crie um arquivo .env na raiz e adicione sua chave de API (ex: Groq, OpenAI, etc, conforme seu código):
 
 ```Snippet de código
 GROQ_API_KEY=sua_chave_aqui
 ```
 
-Execute a aplicação:
+4.Execute a aplicação:
 
 ```Bash
 streamlit run app.py
-📂 Estrutura do Projeto
+```
+# 📂 Estrutura do Projeto
+```
 /Analise_de_Sentimento_Langchain
 │
 ├── app.py              # Interface principal (Streamlit)
@@ -85,4 +88,5 @@ streamlit run app.py
 Caio Giacon
 
 Desenvolvedor focado em Engenharia de IA e soluções de software que resolvem problemas reais.
+
 
