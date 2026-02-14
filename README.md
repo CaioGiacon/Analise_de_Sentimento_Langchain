@@ -80,7 +80,6 @@ streamlit run app.py
 ├── app.py              # Interface principal (Streamlit)
 ├── chain.py            # Lógica da LangChain e Prompts (estimado)
 ├── requirements.txt    # Dependências do projeto
-├── .env                # Variáveis de ambiente (não versionado)
 └── README.md           # Documentação
 ```
 
@@ -88,5 +87,6 @@ streamlit run app.py
 Caio Giacon
 
 Desenvolvedor focado em Engenharia de IA e soluções de software que resolvem problemas reais.
+
 
 
