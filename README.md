@@ -15,7 +15,7 @@ O objetivo deste software é automatizar a leitura dessas reviews para responder
 - O produto está cumprindo sua promessa de melhorar o sono?
 
 # 🛠️ Tecnologias Utilizadas
-- Python 3.x
+- Python 3.12
 
 - LangChain: Framework para orquestração da LLM.
 
@@ -87,6 +87,7 @@ streamlit run app.py
 Caio Giacon
 
 Desenvolvedor focado em Engenharia de IA e soluções de software que resolvem problemas reais.
+
 
 
 
